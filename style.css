@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(./background.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.home-icon{
+    background-color: white;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.home-icon img{
+    width: 26px;
+}
+
+.search-section{
+    background-color: white;
+    display: flex;
+    padding: 4px 10px;
+    border-radius: 25px;
+    width: 35%;
+    justify-content: space-between;
+}
+
+.search-section input,
+.search-section button
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.search-section input{
+    width: 100%;
+    padding-left: 10px;
+}
+
+main{
+    background-color: white;
+    padding: 20px 0;
+    border-radius: 25px;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.sub-label{
+    background-color: #F8E6EF;
+    color: #FC2FB9;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-section{
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background-color: #F8E6EF;
+    border-radius: 10px;
+    padding: 20px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 250px;
+}
+
+h2{
+   padding: 0 10px;
+   text-align: center;
+   margin-bottom: 20px;
+   font-size: 26px;
+   font-weight: bold;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card p{
+    padding: 20px;
+    color: #7B7B7B;
+    text-align: left;
+}
+
+.card button{
+    background-color: #BB377C;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #531234;
+    margin-top: auto;
+    padding: 15px 0;
+}
+
+footer .container{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-section{
+    color: white;
+}
+
+.link-section a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.copy-right-section{
+    color: white;
+    font-size: 18px;
+}
+
